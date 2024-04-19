@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite (SWC)
+
+![3D Earth example](screenshot.png "React 3D Earth")
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
