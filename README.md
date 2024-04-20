@@ -1,6 +1,13 @@
-# React + TypeScript + Vite (SWC)
+# React Three Fiber 3D Earth example
+
+Bun / Vite(SWC) / React / Three.js / React Three Fiber / TypeScript / ESLint / Prettier / Tailwind CSS (v4)
+
+- Combines hi-res earth textures to achieve realistic 3D earth.
+- Use of shaders to add atmosphere effect.
 
 ![3D Earth example](screenshot.png "React 3D Earth")
+
+## React + TypeScript + Vite (SWC)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
