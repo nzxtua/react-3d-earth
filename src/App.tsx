@@ -11,6 +11,7 @@ function App() {
   return (
     <div className='w-screen h-screen'>
       <TopSection />
+
       <Canvas>
         <Suspense fallback={null}>
           <Earth />

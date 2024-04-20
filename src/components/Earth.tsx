@@ -4,16 +4,11 @@ import { /* OrbitControls, */ Stars } from "@react-three/drei";
 import * as THREE from "three";
 import { TextureLoader } from "three";
 
-// import EarthDayMap from "@/assets/textures/8k_earth_daymap.jpg";
-import EarthNormalMap from "@/assets/textures/8k_earth_normal_map.jpg";
-// import EarthSpecularMap from "@/assets/textures/8k_earth_specular_map.jpg";
-import EarthCloudsMap from "@/assets/textures/8k_earth_clouds.jpg";
-
 import EarthDayMap from "@/assets/textures/8081_earthmap10k.jpg";
-// import EarthNormalMap from "@/assets/textures/8k_earth_normal_map.jpg";
-import EarthSpecularMap from "@/assets/textures/8081_earthspec10k.jpg";
-// import EarthCloudsMap from "@/assets/textures/8k_earth_clouds.jpg";
+import EarthNormalMap from "@/assets/textures/8k_earth_normal_map.jpg";
 import EarthLightsMap from "@/assets/textures/8081_earthlights10k.jpg";
+import EarthCloudsMap from "@/assets/textures/8k_earth_clouds.jpg";
+import EarthSpecularMap from "@/assets/textures/8081_earthspec10k.jpg";
 import EarthBumpMap from "@/assets/textures/8081_earthbump10k.jpg";
 
 import { AtmosphereMaterial } from '@/materials/AtmosphereMaterial'
@@ -43,7 +38,7 @@ export const Earth: React.FC = () => {
         decay={0}
         angle={0.15}
         penumbra={1}
-        position={[-10, 1, 12]} 
+        position={[-10, 1, 16]} 
         intensity={Math.PI}
         color='#f6f3ea'
       />
@@ -57,9 +52,8 @@ export const Earth: React.FC = () => {
         saturation={0}
       />
       <group ref={groupRef} scale={2.7}>
-
         <mesh>
-          <sphereGeometry args={[1.005, 32, 32]} />
+          <sphereGeometry args={[1.05, 32, 32]} />
           <atmosphereMaterial 
             attach="material"
             side={THREE.BackSide}

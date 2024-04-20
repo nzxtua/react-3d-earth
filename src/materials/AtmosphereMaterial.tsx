@@ -2,7 +2,7 @@ import * as THREE from "three";
 
 import { shaderMaterial } from '@react-three/drei'
 
-import EarthDayMap from "@/assets/textures/8k_earth_daymap.jpg";
+import EarthDayMap from "@/assets/textures/8081_earthmap10k.jpg";
 
 import atmosphereVertexShader from "@/assets/shaders/atmosphereVertex.glsl";
 import atmosphereFragmentShader from "@/assets/shaders/atmosphereFragment.glsl";
